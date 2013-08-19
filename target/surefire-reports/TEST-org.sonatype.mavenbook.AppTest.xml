@@ -1,63 +1,135 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.027" errors="0" skipped="0" tests="1" name="org.sonatype.mavenbook.AppTest">
+<testsuite failures="0" time="0.024" errors="0" skipped="0" tests="1" name="org.sonatype.mavenbook.AppTest">
   <properties>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="/home/mahebert/dev/jdk1.7.0/jre/lib/amd64"/>
-    <property name="java.vm.version" value="21.0-b17"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="path.separator" value=":"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="user.country" value="CA"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="helloworld"/>
+    <property name="PWD" value="/home/hebdeb/dev"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.os.patch.level" value="unknown"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/home/mahebert/dev/maven_projects/simple"/>
-    <property name="java.runtime.version" value="1.7.0-b147"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="basedir" value="/home/mahebert/dev/maven_projects/simple"/>
-    <property name="java.endorsed.dirs" value="/home/mahebert/dev/jdk1.7.0/jre/lib/endorsed"/>
-    <property name="os.arch" value="amd64"/>
-    <property name="surefire.real.class.path" value="/home/mahebert/dev/maven_projects/simple/target/surefire/surefirebooter3899748486716411562.jar"/>
-    <property name="java.io.tmpdir" value="/tmp"/>
-    <property name="line.separator" value="
-"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="sun.management.compiler" value="HotSpot Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="/home/hebdeb/.jenkins"/>
+    <property name="PATH" value="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/hebdeb/dev/grails-2.1.1//bin:/home/hebdeb/dev/idea-IU-117.798/bin:/home/hebdeb/dev/maven/bin"/>
+    <property name="HUDSON_SERVER_COOKIE" value="0ffa1fbaf7e285a9"/>
     <property name="os.name" value="Linux"/>
+    <property name="BUILDINFO_PROPFILE" value="/tmp/buildInfo9087043382693524555.properties"/>
+    <property name="GDM_LANG" value="en_CA.UTF-8"/>
+    <property name="sun.boot.class.path" value="/home/hebdeb/dev/jdk1.7.0_07/jre/lib/resources.jar:/home/hebdeb/dev/jdk1.7.0_07/jre/lib/rt.jar:/home/hebdeb/dev/jdk1.7.0_07/jre/lib/sunrsasign.jar:/home/hebdeb/dev/jdk1.7.0_07/jre/lib/jsse.jar:/home/hebdeb/dev/jdk1.7.0_07/jre/lib/jce.jar:/home/hebdeb/dev/jdk1.7.0_07/jre/lib/charsets.jar:/home/hebdeb/dev/jdk1.7.0_07/jre/lib/jfr.jar:/home/hebdeb/dev/jdk1.7.0_07/jre/classes"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="XDG_DATA_DIRS" value="/usr/share/gnome:/usr/share/gdm/:/usr/local/share/:/usr/share/"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="WINDOWID" value="62916098"/>
+    <property name="java.runtime.version" value="1.7.0_07-b10"/>
+    <property name="user.name" value="hebdeb"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="XDG_SESSION_COOKIE" value="a55f3154ea040467fdd220a40000000c-1375025801.315937-911263435"/>
+    <property name="GTK_RC_FILES" value="/etc/gtk/gtkrc:/home/hebdeb/.gtkrc-1.2-gnome2"/>
+    <property name="m3plugin.lib" value="/home/hebdeb/.jenkins/cache/artifactory-plugin/2.1.7"/>
+    <property name="extractor.used" value="true"/>
+    <property name="SSH_AGENT_PID" value="1154"/>
+    <property name="user.language" value="en"/>
+    <property name="BUILD_DISPLAY_NAME" value="#7"/>
+    <property name="sun.boot.library.path" value="/home/hebdeb/dev/jdk1.7.0_07/jre/lib/i386"/>
+    <property name="classworlds.conf" value="/tmp/classworlds3792717141176312687conf"/>
+    <property name="DISPLAY" value=":0.0"/>
+    <property name="GDMSESSION" value="default"/>
+    <property name="java.version" value="1.7.0_07"/>
+    <property name="user.timezone" value="Canada/Eastern"/>
+    <property name="USERNAME" value="hebdeb"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="ORBIT_SOCKETDIR" value="/tmp/orbit-hebdeb"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="TERM" value="xterm"/>
+    <property name="NLSPATH" value="/usr/dt/lib/nls/msg/%L/%N.cat"/>
+    <property name="java.endorsed.dirs" value="/home/hebdeb/dev/jdk1.7.0_07/jre/lib/endorsed"/>
+    <property name="BUILD_ID" value="2013-08-19_18-29-48"/>
+    <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
-    <property name="surefire.test.class.path" value="/home/mahebert/dev/maven_projects/simple/target/test-classes:/home/mahebert/dev/maven_projects/simple/target/classes:/home/mahebert/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="SHELL" value="/bin/bash"/>
+    <property name="file.separator" value="/"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="51.0"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="2.6.38-8-generic"/>
-    <property name="user.home" value="/home/mahebert"/>
-    <property name="user.timezone" value=""/>
-    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
-    <property name="file.encoding" value="UTF-8"/>
-    <property name="java.specification.version" value="1.7"/>
-    <property name="user.name" value="mahebert"/>
-    <property name="java.class.path" value="/home/mahebert/dev/maven_projects/simple/target/test-classes:/home/mahebert/dev/maven_projects/simple/target/classes:/home/mahebert/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:"/>
-    <property name="java.vm.specification.version" value="1.7"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="java.home" value="/home/mahebert/dev/jdk1.7.0/jre"/>
-    <property name="sun.java.command" value="/home/mahebert/dev/maven_projects/simple/target/surefire/surefirebooter3899748486716411562.jar /home/mahebert/dev/maven_projects/simple/target/surefire/surefire7122850291384359212tmp /home/mahebert/dev/maven_projects/simple/target/surefire/surefire8676157564751005350tmp"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.language" value="en"/>
-    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="user.country" value="CA"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="java.home" value="/home/hebdeb/dev/jdk1.7.0_07/jre"/>
     <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="1.7.0"/>
-    <property name="java.ext.dirs" value="/home/mahebert/dev/jdk1.7.0/jre/lib/ext:/usr/java/packages/lib/ext"/>
-    <property name="sun.boot.class.path" value="/home/mahebert/dev/jdk1.7.0/jre/lib/resources.jar:/home/mahebert/dev/jdk1.7.0/jre/lib/rt.jar:/home/mahebert/dev/jdk1.7.0/jre/lib/sunrsasign.jar:/home/mahebert/dev/jdk1.7.0/jre/lib/jsse.jar:/home/mahebert/dev/jdk1.7.0/jre/lib/jce.jar:/home/mahebert/dev/jdk1.7.0/jre/lib/charsets.jar:/home/mahebert/dev/jdk1.7.0/jre/classes"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="localRepository" value="/home/mahebert/.m2/repository"/>
-    <property name="file.separator" value="/"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
-    <property name="sun.cpu.endian" value="little"/>
+    <property name="os.version" value="2.6.32-5-686-bigmem"/>
+    <property name="GNOME_KEYRING_CONTROL" value="/tmp/keyring-whbiao"/>
+    <property name="SESSION_MANAGER" value="local/mahebert:@/tmp/.ICE-unix/1113,unix/mahebert:/tmp/.ICE-unix/1113"/>
+    <property name="WINDOWPATH" value="9"/>
+    <property name="sun.font.fontmanager" value="sun.awt.X11FontManager"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.version" value="23.3-b01"/>
+    <property name="GIT_PREVIOUS_COMMIT" value="00629204958ee6bbabd26f521be760202456126b"/>
+    <property name="DESKTOP_SESSION" value="default"/>
+    <property name="SHLVL" value="1"/>
+    <property name="_" value="/usr/bin/java"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="JAVA_HOME" value="/home/hebdeb/dev/jdk1.7.0_07/"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="sun.desktop" value="gnome"/>
-    <property name="sun.cpu.isalist" value=""/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="LOGNAME" value="hebdeb"/>
+    <property name="GNOME_KEYRING_PID" value="1095"/>
+    <property name="HOME" value="/home/hebdeb"/>
+    <property name="user.home" value="/home/hebdeb"/>
+    <property name="BUILD_TAG" value="jenkins-helloworld-7"/>
+    <property name="JENKINS_SERVER_COOKIE" value="0ffa1fbaf7e285a9"/>
+    <property name="HUDSON_URL" value="http://localhost:9080/"/>
+    <property name="DBUS_SESSION_BUS_ADDRESS" value="unix:abstract=/tmp/dbus-Z3YyDIVH95,guid=41c7b9d341d1c2f673da470d000cd1c3"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/i386:/lib:/usr/lib"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="/home/hebdeb/dev/apache-maven-3.0.4"/>
+    <property name="java.class.path" value="/home/hebdeb/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-agent-1.3.jar:/home/hebdeb/dev/maven/boot/plexus-classworlds-2.4.jar"/>
+    <property name="sun.java.command" value="org.jvnet.hudson.maven3.agent.Maven3Main /home/hebdeb/dev/maven /home/hebdeb/.jenkins/war/WEB-INF/lib/remoting-2.28.jar /home/hebdeb/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-1.3.jar 40042"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="/home/hebdeb/dev/maven"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="HUDSON_HOME" value="/home/hebdeb/.jenkins"/>
+    <property name="PATH+MAVEN" value="/home/hebdeb/dev/maven/bin"/>
+    <property name="BUILD_URL" value="http://localhost:9080/job/helloworld/7/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="LS_COLORS" value="no=00:fi=00:di=36:ln=35:pi=30;44:so=35;44:do=35;44:bd=33;44:cd=37;44:or=05;37;41:mi=05;37;41:ex=01;31:*.cmd=01;31:*.exe=01;31:*.com=01;31:*.bat=01;31:*.reg=01;31:*.app=01;31:*.txt=32:*.org=32:*.md=32:*.mkd=32:*.h=32:*.c=32:*.C=32:*.cc=32:*.cpp=32:*.cxx=32:*.objc=32:*.sh=32:*.csh=32:*.zsh=32:*.el=32:*.vim=32:*.java=32:*.pl=32:*.pm=32:*.py=32:*.rb=32:*.hs=32:*.php=32:*.htm=32:*.html=32:*.shtml=32:*.xml=32:*.rdf=32:*.css=32:*.js=32:*.man=32:*.0=32:*.1=32:*.2=32:*.3=32:*.4=32:*.5=32:*.6=32:*.7=32:*.8=32:*.9=32:*.l=32:*.n=32:*.p=32:*.pod=32:*.tex=32:*.bmp=33:*.cgm=33:*.dl=33:*.dvi=33:*.emf=33:*.eps=33:*.gif=33:*.jpeg=33:*.jpg=33:*.JPG=33:*.mng=33:*.pbm=33:*.pcx=33:*.pdf=33:*.pgm=33:*.png=33:*.ppm=33:*.pps=33:*.ppsx=33:*.ps=33:*.svg=33:*.svgz=33:*.tga=33:*.tif=33:*.tiff=33:*.xbm=33:*.xcf=33:*.xpm=33:*.xwd=33:*.xwd=33:*.yuv=33:*.aac=33:*.au=33:*.flac=33:*.mid=33:*.midi=33:*.mka=33:*.mp3=33:*.mpa=33:*.mpeg=33:*.mpg=33:*.ogg=33:*.ra=33:*.wav=33:*.anx=33:*.asf=33:*.avi=33:*.axv=33:*.flc=33:*.fli=33:*.flv=33:*.gl=33:*.m2v=33:*.m4v=33:*.mkv=33:*.mov=33:*.mp4=33:*.mp4v=33:*.mpeg=33:*.mpg=33:*.nuv=33:*.ogm=33:*.ogv=33:*.ogx=33:*.qt=33:*.rm=33:*.rmvb=33:*.swf=33:*.vob=33:*.wmv=33:*.doc=31:*.docx=31:*.rtf=31:*.dot=31:*.dotx=31:*.xls=31:*.xlsx=31:*.ppt=31:*.pptx=31:*.fla=31:*.psd=31:*.7z=1;35:*.apk=1;35:*.arj=1;35:*.bin=1;35:*.bz=1;35:*.bz2=1;35:*.cab=1;35:*.deb=1;35:*.dmg=1;35:*.gem=1;35:*.gz=1;35:*.iso=1;35:*.jar=1;35:*.msi=1;35:*.rar=1;35:*.rpm=1;35:*.tar=1;35:*.tbz=1;35:*.tbz2=1;35:*.tgz=1;35:*.tx=1;35:*.war=1;35:*.xpi=1;35:*.xz=1;35:*.z=1;35:*.Z=1;35:*.zip=1;35:*.ANSI-30-black=30:*.ANSI-01;30-brblack=01;30:*.ANSI-31-red=31:*.ANSI-01;31-brred=01;31:*.ANSI-32-green=32:*.ANSI-01;32-brgreen=01;32:*.ANSI-33-yellow=33:*.ANSI-01;33-bryellow=01;33:*.ANSI-34-blue=34:*.ANSI-01;34-brblue=01;34:*.ANSI-35-magenta=35:*.ANSI-01;35-brmagenta=01;35:*.ANSI-36-cyan=36:*.ANSI-01;36-brcyan=01;36:*.ANSI-37-white=37:*.ANSI-01;37-brwhite=01;37:*.log=01;34:*~=01;34:*#=01;34:*.bak=01;36:*.BAK=01;36:*.old=01;36:*.OLD=01;36:*.org_archive=01;36:*.off=01;36:*.OFF=01;36:*.dist=01;36:*.DIST=01;36:*.orig=01;36:*.ORIG=01;36:*.swp=01;36:*.swo=01;36:*,v=01;36:*.gpg=34:*.gpg=34:*.pgp=34:*.asc=34:*.3des=34:*.aes=34:*.enc=34:"/>
+    <property name="OLDPWD" value="/home/hebdeb/dev/workspace"/>
+    <property name="GNOME_DESKTOP_SESSION_ID" value="this-is-deprecated"/>
+    <property name="buildInfoConfig.propertiesFile" value="/tmp/buildInfo9087043382693524555.properties"/>
+    <property name="SSH_AUTH_SOCK" value="/tmp/keyring-whbiao/ssh"/>
+    <property name="MAVEN_OPTS" value=" -Dm3plugin.lib=/home/hebdeb/.jenkins/cache/artifactory-plugin/2.1.7"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="os.arch" value="i386"/>
+    <property name="GRAILS_VERSION" value=""/>
+    <property name="java.ext.dirs" value="/home/hebdeb/dev/jdk1.7.0_07/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="user.dir" value="/home/hebdeb/.jenkins/jobs/helloworld/workspace"/>
+    <property name="JOB_URL" value="http://localhost:9080/job/helloworld/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="MAVEN_HOME" value="/home/hebdeb/dev/maven"/>
+    <property name="XAUTHORITY" value="/var/run/gdm3/auth-for-hebdeb-WrNJci/database"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Server VM"/>
+    <property name="BUILD_NUMBER" value="7"/>
+    <property name="JENKINS_URL" value="http://localhost:9080/"/>
+    <property name="GIT_BRANCH" value="origin/master"/>
+    <property name="GDM_KEYBOARD_LAYOUT" value="ca	multi"/>
+    <property name="GPG_AGENT_INFO" value="/tmp/seahorse-qm0eBP/S.gpg-agent:1168:1"/>
+    <property name="COLORTERM" value="gnome-terminal"/>
+    <property name="GIT_COMMIT" value="00629204958ee6bbabd26f521be760202456126b"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="LANG" value="en_CA.UTF-8"/>
+    <property name="maven3.interceptor" value="/home/hebdeb/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-1.3.jar"/>
+    <property name="GRAILS_HOME" value="/home/hebdeb/dev/grails-2.1.1/"/>
+    <property name="WORKSPACE" value="/home/hebdeb/.jenkins/jobs/helloworld/workspace"/>
+    <property name="GTK_MODULES" value="canberra-gtk-module"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="USER" value="hebdeb"/>
+    <property name="GIT_URL" value="git@github.com:hebertm80/mavenHelloworld.git"/>
+    <property name="XFILESEARCHPATH" value="/usr/dt/app-defaults/%L/Dt"/>
   </properties>
   <testcase time="0.003" classname="org.sonatype.mavenbook.AppTest" name="testApp"/>
 </testsuite>
